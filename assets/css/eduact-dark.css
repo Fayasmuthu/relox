@@ -22,7 +22,7 @@
 .main-menu .main-menu__list > li > a,
 .stricky-header .main-menu__list > li > a,
 .hero-banner__title,
-.service-one__icon,
+.arrival-one__icon,
 .category-one__hover__icon,
 .category-one__icon,
 .home-showcase__title,
@@ -89,7 +89,7 @@
 .course-one__content,
 .category-one__item,
 .service-one__item {
-  box-shadow: 11px 15px 30px 0px #05092d;
+  box-shadow: 2px 2x 30px 0px #1c1c22;
 }
 
 .testimonial-one__area {
