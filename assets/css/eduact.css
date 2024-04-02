@@ -2818,6 +2818,7 @@ h6 {
 .about-three__thumb__one {
   position: relative;
   padding: 82px 0 0 124px;
+  
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -2836,6 +2837,7 @@ h6 {
   border-radius: 0px;
   max-width: 100%;
   height: auto;
+  /* box-shadow: -85px 80px 0px 0px; */
 }
 
 .about-three__thumb__shape-one {
@@ -3096,6 +3098,11 @@ h6 {
   .testimonial-one .section-title {
     margin-bottom: 70px;
   }
+  .testimonial-one__content {
+    position: relative;
+    font-size: 4px;
+    padding-right: 0px;
+}
   
 }
 
@@ -3106,13 +3113,16 @@ h6 {
     padding: 15px 0 18px;
     background-color: #1F1F1F;
   }  
-
-  .testimonial-one__content {
-    position: relative;
-    /* margin-left: -1px; */
-    /* margin-right: 86px; */
-}
+  .testimonial-one__quote {
+    font-size: 10px;
+    line-height: 37px;
+    color: var(--eduact-black);
+    margin-bottom: 28px;
+  }
   
+
+
+
 }
 
 
@@ -3235,7 +3245,7 @@ h6 {
   position: relative;
   display: flex;
   flex-direction: column;
-  
+  /* padding-right: 200px; */
   /* margin-left: 100px;
   margin-right: 100px; */
 }
@@ -3292,7 +3302,7 @@ h6 {
     position: relative;
     right: 0;
     top: 0;
-    margin: 35px -32px -165px;
+    margin: 135px -32px -165px;
   }
 }
 
