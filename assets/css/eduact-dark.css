@@ -107,7 +107,6 @@
 .counter-one__list li,
 .counter-one__list::after,
 .counter-one__list::before,
-.category-one__slider.owl-carousel .owl-dots,
 .about-one__box__icon {
   background-color: var(--eduact-soft3);
 }
@@ -139,12 +138,12 @@
 }
 
 .testimonial-one__carousel.owl-carousel .owl-nav button {
-  background-color: var(--eduact-black5);
-  color: var(--eduact-base);
+  background-color: #333333;
+  color: #EFBE8A;
 }
 
 .testimonial-one__carousel.owl-carousel .owl-nav button:hover {
-  color: var(--eduact-black);
+  color: #EFBE8A;
 }
 
 .team-one__image::after {

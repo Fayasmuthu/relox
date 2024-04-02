@@ -1,5 +1,6 @@
 @font-face {
   font-family: 'icomoon';
+  /* font-family: "Roboto", sans-serif; */
   src:  url('fonts/icomoon8568.eot?w8l75j');
   src:  url('fonts/icomoon8568.eot?w8l75j#iefix') format('embedded-opentype'),
     url('fonts/icomoon8568.ttf?w8l75j') format('truetype'),
@@ -13,12 +14,14 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
+  font-weight: 700;
+  font-style: normal;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

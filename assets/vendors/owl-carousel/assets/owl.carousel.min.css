@@ -83,8 +83,8 @@
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel button.owl-dot {
-    background: 0 0;
-    color: inherit;
+    /* background: 0 0; */
+    /* color: inherit; */
     border: none;
     padding: 0 !important;
     font: inherit
