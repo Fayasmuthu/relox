@@ -214,6 +214,13 @@
     margin-right: 0px;
   }
 }
+@media (max-width: 1024px) {
+  .blog-three {
+    padding: 20px 0 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 
 /* imp11111111111 */
 .product-one__item {
@@ -719,7 +726,7 @@ h6 {
 }
 
 .main-menu,
-.stricky-header {
+.stricky-header > {
   /* after third level no menu */
 }
 
@@ -1999,7 +2006,7 @@ h6 {
   .hero-banner__thumb {
     width: 286px;
     height: 430px;
-    margin-left: 70px;
+    margin-left: 80px;
     padding-top: 77px;
     /* margin-left: 120px; */
   }
@@ -2035,6 +2042,14 @@ h6 {
     margin-right: 0px;
   }
 }
+@media  (min-width: 768px) and (max-width: 1200px) {
+  .featured-one {
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
 
 .featured-one .container {
   position: relative;
