@@ -1794,14 +1794,14 @@ h6 {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: var(--eduact-base);
+  background-color: #3D3D3D;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 14px;
   margin-right: 10px;
-  color: var(--eduact-white);
+  color: #fff;
 }
 
 .mobile-nav__container .main-menu__logo,
@@ -1821,6 +1821,12 @@ h6 {
   padding: 0px 0 40px;
   overflow: hidden;
   z-index: 2;
+}
+
+.hero-banner .cart_color {
+  color: #FFB568;
+  z-index: 2;
+  font-size: 24px;
 }
 
 @media (min-width: 768px) {
@@ -2391,10 +2397,11 @@ h6 {
   z-index: 2; /* Ensure the image stays above the overlay */
 }
 
-.cart_color{
+.cart_color {
   color: #FFB568;
   z-index: 2;
 }
+
 
 .arrival-one__wrapper:hover .cart_color {
   color: #2E2E2E; /* Change color of .cart_color on hover */
@@ -2445,13 +2452,13 @@ h6 {
   margin-top: 15px;
   text-align: center;
   color: #ffffff;
-  z-index: 2; /* Ensure the title stays above the overlay */
+  z-index: 2;
 }
 
 
 .arrival-one__title {
   font-size: 18px;
-  margin: 0 0 17px;
+  margin: 13px 0 11px;
 }
 
 .arrival-one__title a {
@@ -2513,7 +2520,23 @@ h6 {
     margin-left: 0px;
     margin-right: 0px;
   }
+  
+  .arrival-one__item {
+    position: relative;
+    border-radius: 14px;
+    margin: 0 10px 30px !important;
+  }
+  /* .arrival-one__wrapper img {
+    max-width: 70%;
+    z-index: 2; 
+  } */
 }
+@media (max-width: 541px) {
+  .arrival-one__wrapper img {
+    max-width: 70%;
+    z-index: 2; 
+  }
+  }
 
 .arrival-one .container {
   position: relative;
@@ -2525,8 +2548,8 @@ h6 {
   position: relative;
   border-radius: 14px;
   margin: 0 0 30px;
-  /* box-shadow: 11px 15px 30px 0px rgba(128, 137, 225, 0.1); */
 }
+
 
 .arrival-one__item:hover .arrival-one__icon {
   background-color: #333333;
@@ -3409,9 +3432,7 @@ h6 {
     justify-content: center; */
   }
 }
-.testimonial-one__thumb__one{
 
-}
 .testimonial-one__thumb__one img{
   background-size: cover; 
   background-position: center; 
@@ -4674,7 +4695,7 @@ body.boxed-wrapper .hero-banner__thumb {
     margin-right: 0px;
   }
   .product-one__rm img{
-    padding: 8px;
+    padding: 6px;
   }
   .product-one__rm{
     width: 25px;
