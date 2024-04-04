@@ -194,7 +194,7 @@
 
 
 
-.blog-three {
+.products-one {
   position: relative;
   padding: 115px 0 85px;
   /* background-position: bottom center;
@@ -208,14 +208,14 @@
 }
 
 @media (max-width: 767px) {
-  .blog-three {
+  .products-one {
     padding: 20px 0 45px;
     margin-left: 0px;
     margin-right: 0px;
   }
 }
 @media (max-width: 1024px) {
-  .blog-three {
+  .products-one {
     padding: 20px 0 45px;
     margin-left: 20px;
     margin-right: 20px;
@@ -308,7 +308,7 @@
   color: var(--eduact-base);
 }
 
-.blog-three__meta {
+.product-one__meta {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -317,23 +317,13 @@
   align-items: center; 
   
 }
-/* 
-.blog-three__meta {
-  position: relative;
-  padding: 6px 0 0 55px;
-  min-height: 45px;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 25px;
-  letter-spacing: 0.48px;
-  text-transform: uppercase;
-} */
 
-.blog-three__meta img {
+
+.product-one__meta img {
   padding: 14px;
   }
 
-.blog-three__meta a {
+.product-one__meta a {
   display: block;
   font-size: 16px;
   font-weight: 700;
@@ -342,11 +332,11 @@
   color: var(--eduact-black);
 }
 
-.blog-three__meta a:hover {
+.product-one__meta a:hover {
   color: var(--eduact-base);
 }
 
-.blog-three__rm {
+.product-one__rm {
   position: relative;
   display: flex;
   align-items: center;
@@ -360,18 +350,18 @@
 
 }
 
-.blog-three__rm img {
+.product-one__rm img {
   display: inline-block;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-.blog-three__rm:hover {
+.product-one__rm:hover {
   background-color: var(--eduact-secondary);
   color: var(--eduact-white);
 }
 
-.blog-three__rm:hover span {
+.product-one__rm:hover span {
   animation: iconTranslateX 0.4s forwards;
 }
 
@@ -677,7 +667,7 @@ h6 {
   line-height: 26px;
   text-transform: capitalize;
   color: white;
-  margin: 0 0 11px;
+  margin: 0 0 0px;
   position: relative;
   z-index: 2;
 }
@@ -1828,9 +1818,18 @@ h6 {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: right bottom;
-  padding: 0px 0 92px;
+  padding: 0px 0 40px;
   overflow: hidden;
   z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .hero-banner{
+    padding: 0px 0 105px !important;
+  }
+  .hero-banner hr {
+  display: none;
+  }
 }
 
 .hero-banner__bg-shape1 {
@@ -1858,6 +1857,12 @@ h6 {
   }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-banner__bg-shape1 {
+    width: 759px;
+    height: 759px;
+  }
+}
 .hero-banner__bg-shape1::after {
   position: absolute;
   left: -140px;
@@ -1921,11 +1926,6 @@ h6 {
 @media (max-width: 1199px) {
   .hero-banner__content {
   padding: 70px 50px 0;
-  }
-}
-@media (min-width: 1199px) {
-  .hero-banner__content {
-  padding: 70px 90px 0;
   }
 }
 
@@ -3612,12 +3612,15 @@ h6 {
 .main-footer {
   background-color: var(--eduact-black);
   position: relative;
-  padding: 90px 0 50px;
+  padding: 40px 0 40px;
 }
 
 @media (max-width: 767px) {
   .main-footer {
-    padding: 80px 0;
+    /* padding: 80px 0; */
+    padding-top: 50px;
+    padding-bottom: 0px;
+    
   }
 }
 
@@ -3664,7 +3667,7 @@ h6 {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background-color: rgba(var(--eduact-base-rgb), 0.17);
+  background-color: #292929;
   color: var(--eduact-white);
   line-height: 30px;
   border-radius: 50%;
@@ -4661,4 +4664,41 @@ body.boxed-wrapper .hero-banner__thumb {
   padding: 10px;
 }
 
+@media (max-width: 767px) {
+  .products-one .col-md-4 {
+      flex: 0 0 50% !important; /* Make each column take up 50% width */
+      max-width: 50%; /* Make each column take up 50% width */
+  }
+  .products-one{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .product-one__rm img{
+    padding: 8px;
+  }
+  .product-one__rm{
+    width: 25px;
+    height: 25px;
+  }
+  .product-one__image img{
+    margin-top: 18px;
+  }
+  .product-one__title {
+    font-size: 12px;
+    margin: -14px 0 10px;
+}
+.product-one__price {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 2px;
+  color: var(--eduact-secondary);
+}
+}
 
+@media (max-width: 476px) {
+  .product-one__image img{
+    margin-top: 18px;
+    width: 60px;
+  }
+
+}
