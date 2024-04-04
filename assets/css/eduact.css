@@ -983,6 +983,7 @@ h6 {
   display: flex;
   align-items: center;
   padding-top: 10px;
+  gap: 20px;
 }
 
 .main-menu__right .eduact-btn {
