@@ -2570,9 +2570,21 @@ h6 {
 }
 
 
+
+
 @media (max-width: 767px) {
   .about-one {
     padding: 50px 0 80px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-one {
+    padding: 0px 0 80px;
+  }
+  .about-one .row {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
