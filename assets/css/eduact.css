@@ -1646,7 +1646,7 @@ h6 {
 
 .mobile-nav__content {
   width: 300px;
-  background-color: #FFB568;
+  background-color: #EFBE8A;
   z-index: 10;
   position: relative;
   height: 100%;
@@ -2985,7 +2985,7 @@ h6 {
     border-radius: 0px;
     width: 250px;
     height: auto;
-    box-shadow: -20px 20px 0px 0px #FFB568 !important;
+    box-shadow: -20px 20px 0px 0px #EFBE8A !important;
   }
 }
 
@@ -3007,7 +3007,7 @@ h6 {
   /* animation: border-background 2s ease infinite; */
   border-radius: 0px;
   z-index: -1;
-  background-color: #FFB568;
+  background-color: #EFBE8A;
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -3462,7 +3462,7 @@ h6 {
     position: relative;
     /* width: 250px; */
     max-width: 100%;
-  box-shadow:80px -80px #FFB568;
+  box-shadow:80px -80px #EFBE8A;
 
     /* right: 0;
     top: 0; */
@@ -3478,7 +3478,7 @@ h6 {
     position: relative;
     width: 250px;
     max-width: 100%;
-    box-shadow:30px -30px #FFB568;
+    box-shadow:30px -30px #EFBE8A;
     left: 0px;
   }
 }
